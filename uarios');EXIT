@@ -1,0 +1,60 @@
+[33mcommit a6012ce0f2836b3ac7856ed08f1ffe41c700fb85[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: AlejandroVillalba <alejandrovillalba007@gmail.com>
+Date:   Sun Jun 21 20:37:19 2020 -0400
+
+    Login + CRUD de usurio + tabla en la base de tados + conexion
+
+[33mcommit 5514e6bd2c2edb79fba40600e9754bb314c4b91e[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: AlejandroVillalba <alejandrovillalba007@gmail.com>
+Date:   Tue Jun 16 23:27:15 2020 -0400
+
+    documentacion del proyecto
+
+[33mcommit cfec28fad267642791e87a3c79e142490c931b0e[m
+Author: AlejandroVillalba <alejandrovillalba007@gmail.com>
+Date:   Tue Jun 16 23:17:01 2020 -0400
+
+    app inicial
+
+[33mcommit f924bf470232451e1dab1e0b8fc06b5e3ce727e0[m
+Author: AlejandroVillalba <38007374+AlejandroVillalba@users.noreply.github.com>
+Date:   Tue Jun 16 22:42:54 2020 -0400
+
+    Create README.md
+
+[33mcommit bda0c9da0ce6ffc43abca14ca0fcf57559297649[m
+Author: Paty <patrilorenfer@gmail.com>
+Date:   Tue Jun 16 22:40:29 2020 -0400
+
+    do
+
+[33mcommit 85204b67ec035806fa1b3f8f211fe8729f185572[m
+Author: Paty <patrilorenfer@gmail.com>
+Date:   Tue Jun 16 22:05:14 2020 -0400
+
+    documentacion cambio
+
+[33mcommit f6a4d68d409deb84e1d415a108a8f0940257fea7[m
+Merge: 31ca719 48ebeeb
+Author: Paty <patrilorenfer@gmail.com>
+Date:   Tue Jun 16 22:03:42 2020 -0400
+
+    documentacion
+
+[33mcommit 31ca719fddaf2f8fad45752c20de87ee5ff1b4cc[m
+Author: Paty <patrilorenfer@gmail.com>
+Date:   Tue Jun 16 22:01:03 2020 -0400
+
+    documentacion
+
+[33mcommit 48ebeeb8df016616e4408e22cc602c5f2fc1c185[m[33m ([m[1;31morigin/original[m[33m, [m[1;32moriginal[m[33m)[m
+Author: AlejandroVillalba <alejandrovillalba007@gmail.com>
+Date:   Tue Jun 16 17:41:07 2020 -0400
+
+    plantilla AdminLTE 3
+
+[33mcommit 9298d0e778568a84f45c14cecc2afad48abf3137[m
+Author: AlejandroVillalba <alejandrovillalba007@gmail.com>
+Date:   Wed Jun 10 22:30:14 2020 -0400
+
+    Iniciando proyecto prueba

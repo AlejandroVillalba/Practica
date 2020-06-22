@@ -8,10 +8,19 @@ use App\Http\Requests\UserFormRequest;
 class UserController extends Controller
 {
 
-    public function index()
+    public function index(Request $request)
     {
-      $users = User::all();
-      return view('usuarios.index', ['users' => $users]);
+
+      if ($request) {
+        $query = trim($request->get('search'));
+        $users = User::where('name', 'LIKE', '%' . $query . '%')
+          ->orderBy('id', 'asc')
+          ->get();
+
+        return view('usuarios.index', ['users' => $users, 'search'=> $query]);
+      }
+      //$users = User::all();
+      //return view('usuarios.index', ['users' => $users]);
     }
 
 

@@ -3,6 +3,13 @@
 @section('content')
   <div class="container">
     <h2>Lista de usuarios registrados <a href="usuarios/create"><button type="button" class="btn btn-success float-right">Agregar Usuarios</button></a></h2>
+    <h6>
+      @if($search)
+        <div class="alert alert-primary" role="alert">
+            Los resultados de tu busqueda '{{ $search }}' son:
+        </div>
+      @endif
+    </h6>
   <table class="table table-hover table-dark">
     <thead>
       <tr>
