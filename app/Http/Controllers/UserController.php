@@ -15,7 +15,7 @@ class UserController extends Controller
         $query = trim($request->get('search'));
         $users = User::where('name', 'LIKE', '%' . $query . '%')
           ->orderBy('id', 'asc')
-          ->paginate(1);
+          ->paginate(5);
 
         return view('usuarios.index', ['users' => $users, 'search'=> $query]);
       }
@@ -62,7 +62,7 @@ class UserController extends Controller
 
       $usuario-> name = $request->get( 'name' );
       $usuario-> email = $request->get( 'email');
-
+      $usuario-> password = $request->get( 'password');
       $usuario->update();
 
       return redirect( '/usuarios');
