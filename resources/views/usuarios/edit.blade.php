@@ -26,6 +26,10 @@
     <label for="email">Ingrese su correo electronico</label>
     <input type="email" class="form-control" name="email" value="{{ $user-> email }}" placeholder="Ingrese su correo electronico">
   </div>
+  <div class="form-group">
+    <label for="password">Ingrese su nueva contrase;a</label>
+    <input type="password" class="form-control" name="password" value="{{ $user-> password }}" placeholder="Ingrese su ccontra">
+  </div>
   <button type="submit" class="btn btn-primary">Guardar</button>
   <button type="reset" class="btn btn-danger">Cancelar</button>
   </form>
