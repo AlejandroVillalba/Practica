@@ -17,9 +17,9 @@ class CreateProveedorTable extends Migration
             $table->idProveedor();
             $table->string('nombreEmpresa');
             $table->int('ruc')->unique();
-            $table->string('direccion')
-            $table->string('telefono')
-            $table->string('email')
+            $table->string('direccion');
+            $table->string('telefono');
+            $table->string('email');
             $table->string('password');
             $table->rememberToken();
             $table->timestamps();
